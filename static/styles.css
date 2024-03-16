@@ -44,7 +44,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: url('diabetes.jpg'); /* Replace 'your-image.jpg' with your image path */
+    background-image: url('https://media.post.rvohealth.io/wp-content/uploads/2020/09/doctor_glucosmeter_patient_hand-1200x628-FACEBOOK-1200x628.jpg'); /* Replace 'your-image.jpg' with your image path */
     background-size: cover;
     padding: 50px 70px;
 }
