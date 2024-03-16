@@ -1,0 +1,67 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.grid-element{
+    padding:2%;
+}
+
+#element11{
+    width:50%;
+    margin:0 25% 0 25%;
+    grid-area:6/1/7/3;
+    display: grid;
+    grid-template-columns:1fr 3fr;
+    align-items: center;
+}
+
+button{
+    width:10%;
+    margin:0 auto; /* Updated margin to center the button horizontally */
+}
+
+.grid-full{
+    background-color: rgba(137, 207, 243, 0.8);
+    padding: 1%;
+    margin:1%;
+}
+
+.title {
+    margin-top:1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('diabetes.jpg'); /* Replace 'your-image.jpg' with your image path */
+    background-size: cover;
+    padding: 50px 70px;
+}
+
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.prediction-result{
+    margin-top: 20px;
+    font-weight: bold;
+    grid-column: span 2;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align:center;
+    padding: 10px;
+}
